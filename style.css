@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(image/new-image.jpg);
+    background-position:center;
+    background-size:cover;
+    height: 109vh;
+
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin:auto;
+
+}
+.icon{
+    width: 100px;
+    float: left;
+    height: 70px;
+    margin-top: auto;
+   
+}
+.logo{
+    color: #2ae919;
+    font-size: 35px;
+    font-family: Arial;
+    
+    padding-top: auto;
+}
+.menu{
+     width:auto;
+     float: left;
+     height:auto;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 600px;
+}
+ul li{
+    list-style: none;
+    margin-left: 40px;
+    margin-top: 27px;
+    font-size: 15px;
+
+
+}
+ul li a{
+    text-decoration: non;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li  :hover{
+    color: #2ae919;
+
+ 
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(2, 40, 2);
+    border: 2px solid rgb(2, 22, 5);
+    margin-top: 13px;
+    color: #041d0a;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #efebeb;
+    position: relative;
+}
+.content.par{
+    padding-left: 30px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+
+.content.cn.a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: #fff;
+}
+.content span{
+    color: #2ae919;
+    font-size: 60px;
+}
+.form{
+    width: 250px;
+    height: 380;
+    background: linear-gradient(to top, r);
+}
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 100px;
+}
+
+
+.button {
+    background-color: #2ae919;
+    color: rgb(236, 232, 232);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 30px;
+    transition: background-color 0.3s ease;
+    
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+.button:hover{
+    color: #0d1908;
+}
+.faq-container-heading{
+ color: #2ae919;
+ margin-top: 100px;
+ margin-bottom: 50px;
+ text-align: center;
+}
+.faq-container {
+        max-width: auto;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
+    
+.faq-question {
+        margin-left:350px;
+        margin-bottom: 20px;
+        max-width: 800px;
+        cursor: pointer;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 10px;
+        position: relative; 
+    }
+    
+.faq-question::after {
+        content: "\25BE"; 
+        position: absolute;
+        right: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+.faq-answer {
+        display: none;
+        padding-top: 10px;
+        font-size: 20px;
+        text-decoration: black;
+    }
+    
+   
+    .faq-question.active .faq-answer {
+        display: block;
+    }
+  
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-question {
+    margin-bottom: 20px;
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative; 
+}
+
+.faq-question::after {
+    content: "\25BE"; 
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+
+.faq-question.active .faq-answer {
+    display: block;
+}
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.faq-question::after {
+    content: "\25BE";
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer; 
+}
+
+.faq-answer {
+    display: none;
+    padding-top: 10px;
+}
+
+.faq-question.active .faq-answer {
+    display: block;
+}
+
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2ae919;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #2ae919;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#disease-input {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #2ae919;
+    margin-bottom: 10px;
+}
+
+#search-button {
+    background-color: #2ae919;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #f1f3f1;
+}
+
+#formulation-result {
+    font-size: 18px;
+    color: #2ae919;
+    margin-top: 50px;
+}
+#formulation-output {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+#formulation-output h2 {
+    font-size: 24px;
+    color: #2ae919;
+    margin-bottom: 10px;
+}
+
+#formulation-result {
+    font-size: 18px;
+    color: #2ae919;
+    margin-top: 10px;
+}
+/* Reset some default styles for consistency */
+body, h1, h2, p, textarea, button, a, img {
+    margin: 0;
+    padding: 0;
+    text-decoration: none; /* Remove underline from links */
+}
+
+/* Basic styling with background image */
+body {
+    background-image: url('image/pra.jpg'); /* Replace 'background-image.jpg' with your image file path */
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    color: #333;
+    line-height: 1.6;
+    background-position: center;
+    background-size:90%;
+}
+
+/* Section styling */
+.introduction {
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Space items evenly, pushing .introduction-text to the right */
+    align-items: flex-end; 
+    background-color: transparent;
+}
+
+.introduction-text {
+    flex: 1;
+    text-align: center;
+    margin-top: 10px;
+    background-color: transparent;
+    margin-bottom: 100px;
+    margin-top: 20px;
+
+
+}
+
+.introduction-image {
+    flex: 1;
+    text-align: right;
+    max-width: 100%;
+    
+}
+
+.introduction-image img {
+    max-height: 100px;
+    background-color: transparent; 
+}
+.Disease-predictor {
+    margin-top: 750px;
+    text-align: center; /* Center the text and input/button horizontally */
+    position:relative; /* Position the section absolutely */
+    bottom: 0; /* Position it at the bottom */
+    left: 0; /* Position it at the left edge */
+    width: 100%; /* Take up the full width of the viewport */
+    background-color:rgb(56, 61, 54); /* Background color for the section */
+    padding-top: 10px; /* Add padding for spacing */
+    color: rgb(159, 226, 152); /* Text color */
+}
+
+.search-box {
+    display: inline-block; /* Display the input/button inline */
+    margin-top: 10px; /* Add top margin for spacing */
+}
+
+#disease-input {
+    padding: 10px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #041d0a;
+    background-color: whitesmoke;
+}
+
+#search-button {
+    background-color: #2ae919;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #1a3617; /* Change color on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2ae919;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+  
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ddeedd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1d1b1b;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
